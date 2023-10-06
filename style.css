@@ -18,11 +18,18 @@
     font-size: 1.2em;
 }
 
+.tex {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #005d9f;
+}
+
 .input_group {
     width: 90%;
     max-width: 600px;
     position: relative;
-    
+
 }
 
 .input_group input {

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(135deg, #ffffff, #f4fff9);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.input_group {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    
+}
+
+.input_group input {
+    color: #333131;
+}
+
+#email_field {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    background: transparent;
+    outline: none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#email_label {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#email_error {
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transform: top 0.5s;
+}
